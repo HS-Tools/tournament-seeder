@@ -15,7 +15,7 @@ const FocusableCell = ({ onClick, ...restProps }) => (
   <Table.Cell {...restProps} tabIndex={0} onFocus={onClick} />
 );
 
-export default () => {
+const EditableTable = () => {
   const [columns] = useState([
     { name: 'battletag', title: 'Battletag' },
     { name: 'mmr', title: 'MMR' },
@@ -86,3 +86,5 @@ export default () => {
     </Paper>
   );
 };
+
+export default EditableTable;

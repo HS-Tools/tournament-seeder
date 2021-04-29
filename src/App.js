@@ -1,10 +1,10 @@
 import './App.css';
-import Table from './Table';
+import EditableTable from './EditableTable';
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <EditableTable />
     </div>
   );
 }
