@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import * as XLSX from 'xlsx';
 
 function App() {
   return (
